@@ -1,0 +1,44 @@
+*{
+    outline: none;
+    border: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    
+    background: #000;
+}
+
+div{
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+
+    padding-top: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 18px;
+
+    border: 2px solid #666;
+    border-radius: 35px;
+}
+
+textarea{
+    resize: none;
+    flex: 1; /* Take up remaining vertical space */
+    width: 100%; 
+    box-sizing: border-box; 
+
+    background: transparent;
+
+    font-family: 'Questrial';
+    font-size: 28px;
+    color: #dcdcdc;
+} 
+

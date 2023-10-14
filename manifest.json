@@ -1,0 +1,9 @@
+{
+  "name": "Notes",
+  "short_name": "Notes",
+  "description": "Simple notes PWA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#000"
+}
