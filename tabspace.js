@@ -1,4 +1,3 @@
-let textarea = document.querySelector('textarea');
 textarea.addEventListener('keydown', function (event) {
     // Check if the pressed key is the tab key
     if (event.key === 'Tab') {
